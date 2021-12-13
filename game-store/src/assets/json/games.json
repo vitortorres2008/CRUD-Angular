@@ -1,0 +1,36 @@
+{
+  "games": [
+    {
+      "id": 3,
+      "name": "TOHU",
+      "plataforms": "Xbox",
+      "tags": "action",
+      "price": 25.9,
+      "age": "16"
+    },
+    {
+      "name": "The Medium",
+      "plataforms": "Pc/Xbox/Wii/ps5/android",
+      "tags": "speed",
+      "price": "30.9",
+      "age": "8",
+      "id": 4
+    },
+    {
+      "name": "Borderlands 3: Director's Cut DLC ",
+      "plataforms": "Pc",
+      "tags": "RPG",
+      "price": "65.5",
+      "age": "18+",
+      "id": 5
+    },
+    {
+      "name": "Infamous: Second Son",
+      "plataforms": "PS4",
+      "tags": "Adventure",
+      "price": 300,
+      "age": "18+",
+      "id": 7
+    }
+  ]
+}
