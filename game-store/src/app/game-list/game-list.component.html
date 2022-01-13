@@ -15,7 +15,7 @@
             <th scope="row">{{ responseGame.name }}</th>
             <td>{{ responseGame.plataforms }}</td>
             <td>{{ responseGame.tags }}</td>
-            <td>{{ responseGame.price }}</td>
+            <td>{{ responseGame.price | currency:'BRL' }}</td>
             <td>{{ responseGame.age }}</td>
             <td><button type="button" class="btn btn-success" routerLink="/gameList/update/{{ responseGame.id }}">Edit</button></td>
             <td><button type="button" class="btn btn-danger" (click)="deleteGame(responseGame.id)">Delete</button></td>
